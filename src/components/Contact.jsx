@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import ButtonMailto from './ButtonMailto';
 
 const Contact = () => {
   return (
@@ -26,7 +27,7 @@ const Contact = () => {
                   azimiessa220@gmail.com
                 </span>
               </a> */}
-              <ButtonMailto label="Write me an E-Mail" mailto="mailto:azimiessa220@gmail.com" />
+              <ButtonMailtoo label="Write me an E-Mail" mailto="mailto:azimiessa220@gmail.com" />
             </p>
             <p className=''>
               <span className='text-[#eb5939]'>
