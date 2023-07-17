@@ -21,11 +21,12 @@ const Contact = () => {
                 <ArrowRightIcon />
               </span>
               Email<br/>
-              <a href='mailto:azimiessa220@gmail.com'>
+              {/* <a href='mailto:azimiessa220@gmail.com' target='_blank'>
                 <span className='text-[12px] ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
                   azimiessa220@gmail.com
                 </span>
-              </a>
+              </a> */}
+              <ButtonMailto label="Write me an E-Mail" mailto="mailto:azimiessa220@gmail.com" />
             </p>
             <p className=''>
               <span className='text-[#eb5939]'>
