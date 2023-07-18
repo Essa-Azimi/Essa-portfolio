@@ -17,32 +17,32 @@ const Contact = () => {
           variants={slideIn('left', 'tween', 0.2, 1)}
           className=" bg-[#171818] xs:p-10 p-5 rounded-2xl">
           <div className=' font-avantGarde font-bold text-[#b7ab98] text-[25px] cursor-default'>
-            <p>
+            <p className='relative'>
               <span className='text-[#eb5939]'>
                 <ArrowRightIcon />
               </span>
-              Email<br/>
-              {/* <a href='mailto:azimiessa220@gmail.com' target='_blank'>
-                <span className='text-[12px] ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
+              
+              <ButtonMailto label="E-Mail" mailto="mailto:azimiessa220@gmail.com" /><br />
+              <a href='mailto:azimiessa220@gmail.com'>
+                <span className='text-[12px] z-10 absolute ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
                   azimiessa220@gmail.com
                 </span>
-              </a> */}
-              <ButtonMailto mailto="mailto:azimiessa220@gmail.com" />
+              </a>
             </p>
-            <p className=''>
+            <p className='relative mt-5'>
               <span className='text-[#eb5939]'>
                 <ArrowRightIcon />
               </span>Phone<br/>
-              <span className='text-[12px] ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
+              <span className='text-[12px] ml-6 z-10 absolute text-[#564d3f] hover:text-[#b7ab98]'>
                 +92 349 3949 330
               </span>
             </p>
-            <p>
+            <p className='relative mt-5'>
               <span className='text-[#eb5939]'>
                 <ArrowRightIcon />
               </span>Instagram<br/>
               <a href='https://instagram.com/theazimi1' target='_blank'>
-                <span className='text-[12px] ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
+                <span className='text-[12px] z-10 absolute ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
                   theazimi1
                 </span>
               </a>
