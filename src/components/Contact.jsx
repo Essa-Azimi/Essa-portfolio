@@ -22,12 +22,12 @@ const Contact = () => {
                 <ArrowRightIcon />
               </span>
               
-              <ButtonMailto label="E-Mail" mailto="mailto:azimiessa220@gmail.com" /><br />
-              <div onClick={(e) => {window.location.href ='mailto:azimiessa220@gmail.com';}}>
+              <ButtonMailto  label="E-Mail" mailto="mailto:azimiessa220@gmail.com" /><br />
+              {/* <a href='https://mail.google.com/mailto:azimiessa220'>
                 <span className='text-[12px] z-10 absolute ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
                   azimiessa220@gmail.com
                 </span>
-              </div>
+              </a> */}
             </p>
             <p className='relative mt-5'>
               <span className='text-[#eb5939]'>

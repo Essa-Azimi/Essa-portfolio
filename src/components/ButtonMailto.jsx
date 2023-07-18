@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 const ButtonMailto = ({ mailto, label }) => {
     return (
         <Link
-            to='www.mail.google.com'
+            target="_blank"
+            to='#'
             onClick={(e) => {
                 window.location.href = mailto;
-                e.preventDefault();
+                // e.preventDefault();
             }}
         >
             {label}
