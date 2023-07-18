@@ -27,7 +27,7 @@ const Contact = () => {
                   azimiessa220@gmail.com
                 </span>
               </a> */}
-              <ButtonMailto label="Write me an E-Mail" mailto="mailto:azimiessa220@gmail.com" />
+              <ButtonMailto mailto="mailto:azimiessa220@gmail.com" />
             </p>
             <p className=''>
               <span className='text-[#eb5939]'>
