@@ -23,7 +23,7 @@ const Contact = () => {
               </span>
               
               <ButtonMailto label="E-Mail" mailto="mailto:azimiessa220@gmail.com" /><br />
-              <div onClick={(e) => {window.location.href ='mailto:example@email.com';}}>
+              <div onClick={(e) => {window.location.href ='mailto:azimiessa220@gmail.com';}}>
                 <span className='text-[12px] z-10 absolute ml-6 text-[#564d3f] hover:text-[#b7ab98]'>
                   azimiessa220@gmail.com
                 </span>
